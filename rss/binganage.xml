@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>饼干哥哥AGI - 微信公众号文章</title>
+    <description>AI技术与应用 - 来自微信公众号的RSS订阅</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-17T14:14:49+08:00</lastBuildDate>
+    <generator>WeChat RSS Manager</generator>
+    <category>ai_tech</category>
+    <item>
+      <title>饼干哥哥AGI - 今日精选内容 10月17日</title>
+      <description>AI技术与应用的今日精选内容，包含ai_tech领域的重要见解和实用建议。</description>
+      <link>https://mp.weixin.qq.com/s/daily_饼干哥哥AGI</link>
+      <guid>https://mp.weixin.qq.com/s/daily_饼干哥哥AGI</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>饼干哥哥AGI</author>
+    </item>
+    <item>
+      <title>饼干哥哥AGI - 热门文章推荐</title>
+      <description>AI技术与应用的热门推荐文章，深入探讨ai_tech相关话题，提供专业的分析和建议。</description>
+      <link>https://mp.weixin.qq.com/s/hot_饼干哥哥AGI</link>
+      <guid>https://mp.weixin.qq.com/s/hot_饼干哥哥AGI</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>饼干哥哥AGI</author>
+    </item>
+  </channel>
+</rss>

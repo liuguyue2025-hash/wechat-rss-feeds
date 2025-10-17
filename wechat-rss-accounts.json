@@ -1,0 +1,88 @@
+{
+  "accounts": [
+    {
+      "name": "金渐成",
+      "description": "投资理财领域",
+      "category": "finance",
+      "filename": "jinjincheng.xml"
+    },
+    {
+      "name": "自我的SZ",
+      "description": "个人成长思考",
+      "category": "personal_growth",
+      "filename": "ziwodesz.xml"
+    },
+    {
+      "name": "孟岩",
+      "description": "投资与人生思考",
+      "category": "investment",
+      "filename": "mengyan.xml"
+    },
+    {
+      "name": "辉哥奇谭",
+      "description": "职场与个人发展",
+      "category": "career",
+      "filename": "huigeqitan.xml"
+    },
+    {
+      "name": "生财有术",
+      "description": "创业与赚钱思维",
+      "category": "business",
+      "filename": "shengcai.xml"
+    },
+    {
+      "name": "刘小排r",
+      "description": "产品与运营",
+      "category": "product",
+      "filename": "liuxiaopai.xml"
+    },
+    {
+      "name": "哥飞",
+      "description": "AI与数字化",
+      "category": "tech",
+      "filename": "gefei.xml"
+    },
+    {
+      "name": "丹喵的无限游戏",
+      "description": "个人成长与思维",
+      "category": "mindset",
+      "filename": "danmiao.xml"
+    },
+    {
+      "name": "成甲",
+      "description": "学习与思维方法",
+      "category": "learning",
+      "filename": "chengjia.xml"
+    },
+    {
+      "name": "数字生命卡兹克",
+      "description": "AI与科技前沿",
+      "category": "ai_tech",
+      "filename": "digitallife.xml"
+    },
+    {
+      "name": "孤独大脑",
+      "description": "科技与未来思考",
+      "category": "future_tech",
+      "filename": "gududanao.xml"
+    },
+    {
+      "name": "也谈钱",
+      "description": "理财与消费观念",
+      "category": "finance",
+      "filename": "yetanqian.xml"
+    },
+    {
+      "name": "饼干哥哥AGI",
+      "description": "AI技术与应用",
+      "category": "ai_tech",
+      "filename": "binganage.xml"
+    },
+    {
+      "name": "老华的博客",
+      "description": "投资与商业思考",
+      "category": "investment",
+      "filename": "老华的博客.xml"
+    }
+  ]
+}

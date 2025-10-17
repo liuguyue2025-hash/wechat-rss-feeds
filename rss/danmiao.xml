@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>丹喵的无限游戏 - 微信公众号文章</title>
+    <description>个人成长与思维 - 来自微信公众号的RSS订阅</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-17T14:14:49+08:00</lastBuildDate>
+    <generator>WeChat RSS Manager</generator>
+    <category>mindset</category>
+    <item>
+      <title>丹喵的无限游戏 - 今日精选内容 10月17日</title>
+      <description>个人成长与思维的今日精选内容，包含mindset领域的重要见解和实用建议。</description>
+      <link>https://mp.weixin.qq.com/s/daily_丹喵的无限游戏</link>
+      <guid>https://mp.weixin.qq.com/s/daily_丹喵的无限游戏</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>丹喵的无限游戏</author>
+    </item>
+    <item>
+      <title>丹喵的无限游戏 - 热门文章推荐</title>
+      <description>个人成长与思维的热门推荐文章，深入探讨mindset相关话题，提供专业的分析和建议。</description>
+      <link>https://mp.weixin.qq.com/s/hot_丹喵的无限游戏</link>
+      <guid>https://mp.weixin.qq.com/s/hot_丹喵的无限游戏</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>丹喵的无限游戏</author>
+    </item>
+  </channel>
+</rss>

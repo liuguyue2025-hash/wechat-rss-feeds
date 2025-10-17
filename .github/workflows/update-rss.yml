@@ -1,0 +1,67 @@
+name: Update RSS Feeds
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每日2点更新（UTC时间）
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'wechat-rss-accounts.json'
+      - 'wechat-rss-manager-lark.sh'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup permissions
+        run: |
+          chmod +x ./wechat-rss-manager-lark.sh
+
+      - name: Generate RSS feeds
+        run: |
+          ./wechat-rss-manager-lark.sh generate-all
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Get deployment info
+        run: |
+          echo "🚀 RSS feeds deployed to: ${{ steps.deployment.outputs.url }}"
+          echo "📊 Total RSS files: $(ls -1 rss/*.xml | wc -l)"
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: update
+    if: always()
+
+    steps:
+      - name: Notification on success
+        if: needs.update.result == 'success'
+        run: |
+          echo "✅ RSS feeds updated successfully!"
+          echo "🔗 Access your feeds at: ${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+
+      - name: Notification on failure
+        if: needs.update.result == 'failure'
+        run: |
+          echo "❌ RSS feeds update failed!"
+          echo "📝 Check the logs for more details"

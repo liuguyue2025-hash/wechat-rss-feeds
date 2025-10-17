@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加新公众号 - 微信RSS管理</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .header { text-align: center; margin-bottom: 30px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 5px; font-weight: 500; }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        button {
+            background: #2196f3;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover { background: #1976d2; }
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+            display: block;
+            color: #666;
+            text-decoration: none;
+        }
+        .existing-accounts {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .account-item {
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .remove-btn {
+            background: #f44336;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>➕ 添加新公众号</h1>
+            <p>为新的微信公众号创建RSS订阅源</p>
+        </div>
+
+        <form id="addAccountForm">
+            <div class="form-group">
+                <label for="name">公众号名称 *</label>
+                <input type="text" id="name" name="name" required placeholder="例如：吴晓波频道">
+            </div>
+
+            <div class="form-group">
+                <label for="description">描述</label>
+                <textarea id="description" name="description" rows="2" placeholder="简单描述这个公众号的内容方向"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="category">分类 *</label>
+                <select id="category" name="category" required>
+                    <option value="">请选择分类</option>
+                    <option value="finance">投资理财</option>
+                    <option value="tech">科技前沿</option>
+                    <option value="ai_tech">AI技术</option>
+                    <option value="personal_growth">个人成长</option>
+                    <option value="career">职场发展</option>
+                    <option value="business">商业创业</option>
+                    <option value="product">产品运营</option>
+                    <option value="learning">学习方法</option>
+                    <option value="mindset">思维认知</option>
+                    <option value="future_tech">未来趋势</option>
+                    <option value="lifestyle">生活方式</option>
+                    <option value="other">其他</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="searchKeyword">搜索关键词</label>
+                <input type="text" id="searchKeyword" name="searchKeyword" placeholder="留空则使用公众号名称">
+            </div>
+
+            <button type="submit">🚀 创建RSS订阅</button>
+        </form>
+
+        <a href="./index.html" class="back-link">← 返回首页</a>
+
+        <div class="existing-accounts">
+            <h3>📋 现有公众号</h3>
+            <div id="existingAccountsList">
+                <p>加载中...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 加载现有公众号列表
+        async function loadExistingAccounts() {
+            try {
+                const response = await fetch('./accounts.json');
+                const accounts = await response.json();
+
+                const listElement = document.getElementById('existingAccountsList');
+
+                if (accounts.length === 0) {
+                    listElement.innerHTML = '<p>暂无公众号</p>';
+                    return;
+                }
+
+                listElement.innerHTML = accounts.map(account => `
+                    <div class="account-item">
+                        <span>${account.name} - ${account.category}</span>
+                        <button class="remove-btn" onclick="removeAccount('${account.name}')">删除</button>
+                    </div>
+                `).join('');
+            } catch (error) {
+                document.getElementById('existingAccountsList').innerHTML = '<p>无法加载公众号列表</p>';
+            }
+        }
+
+        // 添加新公众号
+        document.getElementById('addAccountForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData(e.target);
+            const accountData = {
+                name: formData.get('name'),
+                description: formData.get('description'),
+                category: formData.get('category'),
+                search_keyword: formData.get('searchKeyword') || formData.get('name')
+            };
+
+            try {
+                // 这里应该调用后端API，暂时使用模拟
+                alert('公众号添加成功！\\n\\n名称：' + accountData.name + '\\nRSS链接：./rss/' + accountData.name.toLowerCase().replace(/[^a-z0-9]/g, '') + '.xml');
+
+                // 清空表单
+                e.target.reset();
+
+                // 重新加载列表
+                loadExistingAccounts();
+
+                // 跳转到首页
+                setTimeout(() => {
+                    window.location.href = './index.html';
+                }, 2000);
+
+            } catch (error) {
+                alert('添加失败：' + error.message);
+            }
+        });
+
+        // 删除公众号
+        function removeAccount(name) {
+            if (confirm('确定要删除 "' + name + '" 吗？')) {
+                alert('删除功能需要后端API支持');
+            }
+        }
+
+        // 页面加载时执行
+        document.addEventListener('DOMContentLoaded', loadExistingAccounts);
+    </script>
+</body>
+</html>

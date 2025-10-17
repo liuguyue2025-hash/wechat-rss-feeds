@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>数字生命卡兹克 - 微信公众号文章</title>
+    <description>AI与科技前沿 - 来自微信公众号的RSS订阅</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-17T14:14:49+08:00</lastBuildDate>
+    <generator>WeChat RSS Manager</generator>
+    <category>ai_tech</category>
+    <item>
+      <title>数字生命卡兹克 - 今日精选内容 10月17日</title>
+      <description>AI与科技前沿的今日精选内容，包含ai_tech领域的重要见解和实用建议。</description>
+      <link>https://mp.weixin.qq.com/s/daily_数字生命卡兹克</link>
+      <guid>https://mp.weixin.qq.com/s/daily_数字生命卡兹克</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>数字生命卡兹克</author>
+    </item>
+    <item>
+      <title>数字生命卡兹克 - 热门文章推荐</title>
+      <description>AI与科技前沿的热门推荐文章，深入探讨ai_tech相关话题，提供专业的分析和建议。</description>
+      <link>https://mp.weixin.qq.com/s/hot_数字生命卡兹克</link>
+      <guid>https://mp.weixin.qq.com/s/hot_数字生命卡兹克</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>数字生命卡兹克</author>
+    </item>
+  </channel>
+</rss>

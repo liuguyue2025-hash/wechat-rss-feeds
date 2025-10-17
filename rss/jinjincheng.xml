@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>金渐成 - 微信公众号文章</title>
+    <description>投资理财领域 - 来自微信公众号的RSS订阅</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-17T14:14:49+08:00</lastBuildDate>
+    <generator>WeChat RSS Manager</generator>
+    <category>finance</category>
+    <item>
+      <title>金渐成 - 今日精选内容 10月17日</title>
+      <description>投资理财领域的今日精选内容，包含finance领域的重要见解和实用建议。</description>
+      <link>https://mp.weixin.qq.com/s/daily_金渐成</link>
+      <guid>https://mp.weixin.qq.com/s/daily_金渐成</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>金渐成</author>
+    </item>
+    <item>
+      <title>金渐成 - 热门文章推荐</title>
+      <description>投资理财领域的热门推荐文章，深入探讨finance相关话题，提供专业的分析和建议。</description>
+      <link>https://mp.weixin.qq.com/s/hot_金渐成</link>
+      <guid>https://mp.weixin.qq.com/s/hot_金渐成</guid>
+      <pubDate>2025-10-17T14:14:49+08:00</pubDate>
+      <author>金渐成</author>
+    </item>
+  </channel>
+</rss>
