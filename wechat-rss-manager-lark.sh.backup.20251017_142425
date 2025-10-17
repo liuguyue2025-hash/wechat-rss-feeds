@@ -6,7 +6,7 @@
 # 配置
 RSS_DIR="/Users/guyue/wechat-rss-feeds/rss"
 CONFIG_FILE="/Users/guyue/wechat-rss-accounts.json"
-GITHUB_BASE_URL="https://guyue.github.io/wechat-rss-feeds/rss"
+GITHUB_BASE_URL="https://your-username.github.io/wechat-rss-feeds/rss"
 FEISHU_WEBHOOK_URL="https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url"  # 替换为你的飞书webhook
 
 # 确保目录存在
