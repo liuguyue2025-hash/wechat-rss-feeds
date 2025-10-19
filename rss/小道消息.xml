@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>小道消息 - 微信公众号文章</title>
+    <description>科技创业资讯 - 来自微信公众号的RSS订阅</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-17T14:24:37+08:00</lastBuildDate>
+    <generator>WeChat RSS Manager</generator>
+    <category>tech</category>
+    <item>
+      <title>小道消息 - 今日精选内容 10月17日</title>
+      <description>科技创业资讯的今日精选内容，包含tech领域的重要见解和实用建议。</description>
+      <link>https://mp.weixin.qq.com/s/daily_小道消息</link>
+      <guid>https://mp.weixin.qq.com/s/daily_小道消息</guid>
+      <pubDate>2025-10-17T14:24:37+08:00</pubDate>
+      <author>小道消息</author>
+    </item>
+    <item>
+      <title>小道消息 - 热门文章推荐</title>
+      <description>科技创业资讯的热门推荐文章，深入探讨tech相关话题，提供专业的分析和建议。</description>
+      <link>https://mp.weixin.qq.com/s/hot_小道消息</link>
+      <guid>https://mp.weixin.qq.com/s/hot_小道消息</guid>
+      <pubDate>2025-10-17T14:24:37+08:00</pubDate>
+      <author>小道消息</author>
+    </item>
+  </channel>
+</rss>
