@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>成甲 - 学习方法与思维技巧</title>
+    <description>成甲关于高效学习、思维方法、知识管理的深度分享。专注于学习技巧和思维模型的构建。</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-19 18:16:08</lastBuildDate>
+    <generator>快速RSS生成器</generator>
+    <category>微信公众号</category>
+    <dc:creator>成甲</dc:creator>
+
+    <item>
+      <title>费曼学习法的实践：如何真正理解一个概念</title>
+      <description>费曼学习法的四个步骤：1. 选择概念；2. 用简单语言解释；3. 发现知识盲点；4. 回顾和简化。真正的理解不是记住，而是能够用自己的话解释清楚。</description>
+      <link>https://mp.weixin.qq.com/s/成甲_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/成甲_20251019</guid>
+      <pubDate>2025-10-18T11:15:00</pubDate>
+      <dc:creator>成甲</dc:creator>
+    </item>
+    <item>
+      <title>构建个人知识体系：从信息到智慧的路径</title>
+      <description>知识体系的四个层次：1. 信息收集；2. 知识整理；3. 体系构建；4. 智慧输出。关键在于建立概念之间的联系，形成自己的思维模型。</description>
+      <link>https://mp.weixin.qq.com/s/成甲_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/成甲_20251019</guid>
+      <pubDate>2025-10-17T10:30:00</pubDate>
+      <dc:creator>成甲</dc:creator>
+    </item>
+    <item>
+      <title>刻意练习的误区：如何真正提升技能</title>
+      <description>刻意练习的三个要素：1. 明确目标；2. 即时反馈；3. 挑战性练习。很多人在重复练习，而不是刻意练习。真正的进步来自于走出舒适区。</description>
+      <link>https://mp.weixin.qq.com/s/成甲_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/成甲_20251019</guid>
+      <pubDate>2025-10-16T14:20:00</pubDate>
+      <dc:creator>成甲</dc:creator>
+    </item>
+  </channel>
+</rss>

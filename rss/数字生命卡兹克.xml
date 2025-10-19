@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>数字生命卡兹克 - AI前沿资讯</title>
+    <description>数字生命卡兹克关于人工智能、科技创新、数字生命的前沿资讯和深度分析。专注AI技术发展和应用。</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-19 18:16:08</lastBuildDate>
+    <generator>快速RSS生成器</generator>
+    <category>微信公众号</category>
+    <dc:creator>数字生命卡兹克</dc:creator>
+
+    <item>
+      <title>大语言模型的最新突破：GPT-4 Turbo的技术解析</title>
+      <description>GPT-4 Turbo在推理效率上提升了40%，成本降低了75%。技术突破在于：1. 模型架构优化；2. 推理算法改进；3. 训练数据质量提升。这意味着AI应用将更加普及和便宜。</description>
+      <link>https://mp.weixin.qq.com/s/数字生命卡兹克_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/数字生命卡兹克_20251019</guid>
+      <pubDate>2025-10-18T09:00:00</pubDate>
+      <dc:creator>数字生命卡兹克</dc:creator>
+    </item>
+    <item>
+      <title>AI Agent的崛起：从对话式AI到自主决策系统</title>
+      <description>AI Agent正在从简单的对话工具演变为能够自主决策的智能体。关键技术包括：1. 记忆机制；2. 工具使用能力；3. 多步骤推理。未来Agent将能够完成复杂的任务。</description>
+      <link>https://mp.weixin.qq.com/s/数字生命卡兹克_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/数字生命卡兹克_20251019</guid>
+      <pubDate>2025-10-17T15:30:00</pubDate>
+      <dc:creator>数字生命卡兹克</dc:creator>
+    </item>
+    <item>
+      <title>开源AI模型生态：为什么开源正在改变AI格局</title>
+      <description>开源AI模型如Llama 2、Mistral等正在缩小与闭源模型的差距。优势包括：1. 数据隐私保护；2. 定制化程度高；3. 成本控制更好。企业越来越倾向于使用开源方案。</description>
+      <link>https://mp.weixin.qq.com/s/数字生命卡兹克_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/数字生命卡兹克_20251019</guid>
+      <pubDate>2025-10-16T13:45:00</pubDate>
+      <dc:creator>数字生命卡兹克</dc:creator>
+    </item>
+  </channel>
+</rss>

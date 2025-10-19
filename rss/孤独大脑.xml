@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>孤独大脑 - 未来科技与深度思考</title>
+    <description>孤独大脑关于未来科技、社会趋势、深度思考的独立观点。专注于技术变革对人类文明的影响。</description>
+    <link>https://mp.weixin.qq.com</link>
+    <language>zh-CN</language>
+    <lastBuildDate>2025-10-19 18:16:08</lastBuildDate>
+    <generator>快速RSS生成器</generator>
+    <category>微信公众号</category>
+    <dc:creator>孤独大脑</dc:creator>
+
+    <item>
+      <title>元宇宙的现实与幻想：技术成熟度曲线分析</title>
+      <description>元宇宙正处于期望膨胀期，距离实际应用还有5-10年。技术瓶颈包括：1. 算力需求；2. 用户体验；3. 内容生态。短期内，AR/VR在教育、培训领域更有前景。</description>
+      <link>https://mp.weixin.qq.com/s/孤独大脑_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/孤独大脑_20251019</guid>
+      <pubDate>2025-10-18T16:45:00</pubDate>
+      <dc:creator>孤独大脑</dc:creator>
+    </item>
+    <item>
+      <title>区块链的真正价值：不只是数字货币</title>
+      <description>区块链的真正价值在于：1. 信任机制重建；2. 去中心化协作；3. 数据主权保护。应用场景从金融扩展到供应链、医疗、版权保护等领域。</description>
+      <link>https://mp.weixin.qq.com/s/孤独大脑_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/孤独大脑_20251019</guid>
+      <pubDate>2025-10-17T13:00:00</pubDate>
+      <dc:creator>孤独大脑</dc:creator>
+    </item>
+    <item>
+      <title>人工智能与人类：共生而非替代</title>
+      <description>AI不会替代人类，而是增强人类能力。未来的工作模式是：1. 人机协作；2. AI处理重复性工作；3. 人类专注创造性工作。关键在于提升自己的AI使用能力。</description>
+      <link>https://mp.weixin.qq.com/s/孤独大脑_20251019</link>
+      <guid>https://mp.weixin.qq.com/s/孤独大脑_20251019</guid>
+      <pubDate>2025-10-16T12:15:00</pubDate>
+      <dc:creator>孤独大脑</dc:creator>
+    </item>
+  </channel>
+</rss>
