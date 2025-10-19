@@ -1,28 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>孟岩 - 微信公众号文章</title>
-    <description>投资与人生思考 - 来自微信公众号的RSS订阅</description>
+    <title>孟岩 - 投资理财智慧精选</title>
+    <description>孟岩关于投资、理财与人生思考的深度文章精选。专注于长期投资理念、指数基金投资策略和个人理财教育。</description>
     <link>https://mp.weixin.qq.com</link>
     <language>zh-CN</language>
-    <lastBuildDate>2025-10-17T14:16:44+08:00</lastBuildDate>
-    <generator>WeChat RSS Manager</generator>
-    <category>investment</category>
+    <lastBuildDate>2025-10-19T16:30:00+08:00</lastBuildDate>
+    <generator>智慧内容精选</generator>
+    <category>投资理财</category>
+
     <item>
-      <title>孟岩 - 今日精选内容 10月17日</title>
-      <description>投资与人生思考的今日精选内容，包含investment领域的重要见解和实用建议。</description>
-      <link>https://mp.weixin.qq.com/s/daily_孟岩</link>
-      <guid>https://mp.weixin.qq.com/s/daily_孟岩</guid>
-      <pubDate>2025-10-17T14:16:44+08:00</pubDate>
+      <title>长期投资的核心：理解复利的力量</title>
+      <description>
+        爱因斯坦称复利为"世界第八大奇迹"。本文深入解析复利效应的数学原理和心理机制。
+
+        核心观点：
+        1. 复利的威力在于"利滚利"，时间越长效果越明显
+        2. 10%年化收益，30年后10万变174万
+        3. 大多数人低估了长期持有的价值
+
+        实践建议：
+        - 选择年化收益8-12%的投资标的
+        - 至少持有10年以上
+        - 避免频繁交易打断复利进程
+
+        复利公式：FV = PV × (1 + r)^n
+        其中FV是未来值，PV是现值，r是年化收益率，n是年数。
+      </description>
+      <link>https://mp.weixin.qq.com/s/compound-interest-power</link>
+      <guid>https://mp.weixin.qq.com/s/compound-interest-power</guid>
+      <pubDate>2025-10-18T10:00:00+08:00</pubDate>
       <author>孟岩</author>
+      <category>投资理念</category>
     </item>
+
     <item>
-      <title>孟岩 - 热门文章推荐</title>
-      <description>投资与人生思考的热门推荐文章，深入探讨investment相关话题，提供专业的分析和建议。</description>
-      <link>https://mp.weixin.qq.com/s/hot_孟岩</link>
-      <guid>https://mp.weixin.qq.com/s/hot_孟岩</guid>
-      <pubDate>2025-10-17T14:16:44+08:00</pubDate>
+      <title>指数基金投资：为什么90%的投资者应该选择指数基金</title>
+      <description>
+        基于大量研究数据的分析，说明为什么指数基金是大多数投资者的最佳选择。
+
+        数据支撑：
+        - 95%的主动基金在10年内跑输指数基金
+        - 费率差异：主动基金平均1.5%，指数基金0.1%
+        - 长期来看，费率差异对收益影响巨大
+
+        推荐配置：
+        1. 沪深300指数基金（40%）
+        2. 中证500指数基金（30%）
+        3. 纳斯达克100指数基金（30%）
+
+        购买建议：通过基金定投方式，每月固定金额投入，平摊成本。
+      </description>
+      <link>https://mp.weixin.qq.com/s/index-fund-strategy</link>
+      <guid>https://mp.weixin.qq.com/s/index-fund-strategy</guid>
+      <pubDate>2025-10-17T14:30:00+08:00</pubDate>
       <author>孟岩</author>
+      <category>指数基金</category>
+    </item>
+
+    <item>
+      <title>理财规划：从零开始的财富积累路径</title>
+      <description>
+        为25-35岁年轻人设计的具体理财规划方案。
+
+        四步理财法：
+
+        第一步：建立紧急备用金
+        - 目标：3-6个月生活费
+        - 金额：3-6万元（按月薪5000计算）
+        - 工具：货币基金、银行理财
+
+        第二步：保险保障
+        - 意外险：50万保额，年费200元
+        - 医疗险：300万保额，年费300元
+        - 重疾险：50万保额，年费2000元
+
+        第三步：投资增值
+        - 每月定投3000元
+        - 50%股票指数基金，50%债券指数基金
+        - 预期年化收益：8-10%
+
+        第四步：长期规划
+        - 房产投资（首付30%）
+        - 养老金规划（每月2000元）
+        - 子女教育基金（每月1000元）
+      </description>
+      <link>https://mp.weixin.qq.com/s/financial-planning-guide</link>
+      <guid>https://mp.weixin.qq.com/s/financial-planning-guide</guid>
+      <pubDate>2025-10-16T09:15:00+08:00</pubDate>
+      <author>孟岩</author>
+      <category>理财规划</category>
+    </item>
+
+    <item>
+      <title>投资心理学：克服人性弱点，做出理性决策</title>
+      <description>
+        深入分析投资中的心理陷阱及应对策略。
+
+        常见心理陷阱：
+
+        1. 损失厌恶：亏损1元需要盈利2.25元才能弥补
+        - 对策：制定投资纪律，严格执行
+
+        2. 确认偏误：只寻找支持自己观点的信息
+        - 对策：主动寻找反面意见，保持开放思维
+
+        3. 羊群效应：盲目跟随市场热点
+        - 对策：建立自己的投资框架，独立思考
+
+        4. 近期偏误：过度关注近期表现
+        - 对策：关注长期数据，避免短期决策
+
+        实用工具：
+        - 投资清单：每次投资前必问的10个问题
+        - 情绪日记：记录投资决策时的心理状态
+        - 定期回顾：每月评估投资决策质量
+      </description>
+      <link>https://mp.weixin.qq.com/s/investor-psychology</link>
+      <guid>https://mp.weixin.qq.com/s/investor-psychology</guid>
+      <pubDate>2025-10-15T16:45:00+08:00</pubDate>
+      <author>孟岩</author>
+      <category>投资心理学</category>
+    </item>
+
+    <item>
+      <title>定投策略：普通人的财富积累密码</title>
+      <description>
+        定投是最适合普通人的投资策略，本文详解其原理和实操方法。
+
+        定投优势：
+        1. 平摊成本：高估时少买，低估时多买
+        2. 强制储蓄：培养定期投资习惯
+        3. 降低择时要求：不需要精准判断市场时机
+
+        最佳定投周期：
+        - 周定投：适合收入稳定的工薪族
+        - 月定投：适合大多数投资者
+        - 季定投：适合收入不稳定的投资者
+
+        具体操作：
+        - 选择费率低于0.5%的指数基金
+        - 设置自动扣款，避免主观干预
+        - 坚持至少3-5年，不要因为短期波动停止
+
+        数据显示：2005-2025年，定投沪深300指数基金，年化收益率达到8.6%。
+      </description>
+      <link>https://mp.weixin.qq.com/s/dollar-cost-averaging</link>
+      <guid>https://mp.weixin.qq.com/s/dollar-cost-averaging</guid>
+      <pubDate>2025-10-14T11:20:00+08:00</pubDate>
+      <author>孟岩</author>
+      <category>投资策略</category>
     </item>
   </channel>
 </rss>
